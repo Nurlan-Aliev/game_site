@@ -1,9 +1,9 @@
 import random
 
-from game.src.classes.base import Character
-from game.src.classes.heroes import Hero
-from game.src.classes.room import Room
-from game.src import utils
+from game.classes.base import Character
+from game.classes.heroes import Hero
+from game.classes.room import Room
+from game import utils
 from enum import Enum
 
 

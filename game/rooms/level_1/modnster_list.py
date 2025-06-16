@@ -1,4 +1,4 @@
-from game.src.classes.monster import Monsters, BossMonster
+from game.classes import Monsters, BossMonster
 
 
 monster_1 = Monsters("giant_rat", health=30, power=5, exp_reward=25)

@@ -3,9 +3,11 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from starlette.middleware.sessions import SessionMiddleware
-from game.src.classes.heroes import hero_list
-from game.src.classes.monster import Monsters
-from game.src.rooms.level_1.rooms import rooms_lvl_1
+
+from game.classes.heroes import hero_list
+
+from game.classes.monster import Monsters
+from game.rooms.level_1.rooms import rooms_lvl_1
 from web_app.schemas import AttackSchema
 from web_app.utils import get_hero
 

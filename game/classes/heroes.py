@@ -1,6 +1,6 @@
-from game.src.classes.monster import Monsters
-from game.src.utils import show, option
-from game.src.classes.base import Character
+from game.classes.monster import Monsters
+from game.utils import show, option
+from game.classes.base import Character
 from abc import ABC, abstractmethod
 
 

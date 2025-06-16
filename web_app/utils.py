@@ -1,5 +1,5 @@
 from fastapi import Request
-from game.src.classes.heroes import hero_list, Hero
+from game.classes.heroes import hero_list, Hero
 
 
 def get_hero(request: Request) -> Hero:

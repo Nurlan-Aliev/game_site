@@ -1,5 +1,5 @@
 import random
-from game.src.classes.base import Character
+from game.classes.base import Character
 
 
 class Monsters(Character):

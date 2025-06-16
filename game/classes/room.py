@@ -1,5 +1,4 @@
-from game.src.classes.base import Character
-from game.src.utils import show
+from game.classes.base import Character
 
 
 class Room:

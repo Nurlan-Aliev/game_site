@@ -1,4 +1,4 @@
-from game.src.classes.heroes import Hero
+from game.classes.heroes import Hero
 
 
 class Weapon:

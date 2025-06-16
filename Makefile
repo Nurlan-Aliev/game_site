@@ -1,2 +1,2 @@
 start:
-	python3 main.py
+	uvicorn web_app.main:app

@@ -1,5 +1,5 @@
-from game.src.classes.NPC import NPC
-from game.src.rooms.level_1.modnster_list import monsters_dict
+from game.classes.NPC import NPC
+from game.rooms.level_1.modnster_list import monsters_dict
 
 sister_elvari = NPC(
     name="Sister Elvari",

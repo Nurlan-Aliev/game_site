@@ -1,6 +1,6 @@
-from game.src.rooms.level_1.modnster_list import monsters_dict
-from game.src.classes.room import Room
-from game.src.rooms.level_1.persons import npcs_dict
+from game.rooms.level_1.modnster_list import monsters_dict
+from game.classes.room import Room
+from game.rooms.level_1.persons import npcs_dict
 
 
 start_room = Room(

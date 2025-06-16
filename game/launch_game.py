@@ -1,8 +1,8 @@
-from game.src.classes.monster import Monsters
-from game.src.utils import show, option
-from game.src.classes.NPC import NPC
-from game.src.classes.room import Room
-from game.src.classes.heroes import Hero
+from game.classes import Monsters
+from game.utils import show, option
+from game.classes.NPC import NPC
+from game.classes.room import Room
+from game.classes import Hero
 
 
 def show_room_options(room: Room):
