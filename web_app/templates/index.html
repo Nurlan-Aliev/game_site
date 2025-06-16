@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+
+{% block header %}
+    <title>Start Game</title>
+{% endblock %}
+
+{% block content %}
+
+    <form action="/start" method="post" class="d-flex justify-content-center flex-column align-items-center" >
+        <input type="text" name="name" placeholder='Enter your name' class="form-control form-control-lg m-1" style="width: 350px;" required>
+        <select name="char_class" class="form-select m-2" style="width: 350px;" required>
+            <option value="mage">Mage</option>
+            <option value="samurai">Samurai</option>
+            <option value="warrior">Warrior</option>
+        </select>
+        <button type="submit" class="btn btn-primary" style="width: 350px;">Submit</button>
+    </form>
+    
+{% endblock %}

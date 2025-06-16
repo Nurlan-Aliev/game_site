@@ -1,0 +1,21 @@
+{% block content %}
+<div>
+  <div class="hero">
+    <div class="hero-name">{{ hero.name }}</div>
+    <div class="health-bar">
+      <div class="health" style="width: {{ hero.health_percent }}%;">{{hero.health_percent}}</div>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-name">{{ monster.name }}</div>
+    <div class="health-bar">
+      <div class="health" style="width: {{ monster.health_percent }}%;">{{ monster.health_percent }}</div>
+    </div>
+  </div>
+</div>
+
+<button class="btn btn-primary mt-3 mx-5" onclick="attackMonster('{{room}}', 'attack')">attack</button>
+<button class="btn btn-primary mt-3 mx-5" onclick="attackMonster('{{room}}', 'ultimate)">ultimate</button>
+
+{% endblock %}

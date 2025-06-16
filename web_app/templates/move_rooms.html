@@ -1,0 +1,9 @@
+<h2> {{rooms.room_name}}</h2>
+
+<div class="description">{{rooms.description}}</div>
+
+<div class="text-danger">{{ rooms.blocked if rooms.blocked else '' }} </div>
+
+{% for room in rooms.next_rooms %}
+<button class="btn btn-primary mt-3 mx-5" value='{{ room }}' onclick="moveToRoom('{{ rooms.room_name }}','{{ room }}')">{{room}}</button>
+{% endfor %}
